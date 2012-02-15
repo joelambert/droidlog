@@ -6,9 +6,17 @@ DroidLog is a small Python script that displays all log & error messages produce
 
 To use, attach you Android device or launch the emulator, then run the script:
 
-	./droidlog.py
-	
+	python droidlog.py
+
 The script will then listen for PhoneGap console messages and output them to the screen.
+	
+You could alternatively make the script executable:
+
+	chmod u+x droidlog.py
+	
+Then run using:
+
+	./droidlog.py
 
 # License
 
